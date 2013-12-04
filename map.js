@@ -66,7 +66,7 @@ for (var i = 0; i < regions.length; i++) {
 
     // Showing off
     regions[i].mouseover(function(e){
-		this.node.style.opacity = 0.7;//regions[i].node.setAttribute('opacity', 0.7);
+		this.node.style.opacity = 0.7;
 		document.getElementById('region-name').innerHTML = this.data('region');
 	});
 
